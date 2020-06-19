@@ -1,0 +1,30 @@
+{
+    "name": "ApiDataYoutube",
+    "app_id": "",
+	"version":"2.0",
+    "type": "Web App",
+    "license": "No Licence",
+    "authors": [
+        {
+            "name": "ioubnyacs",
+            "email": "aubbenyas717@gmail.com"
+        }
+    ],
+    "architecture ": "WAMP - AJAX MVC",
+    "require": {
+        "php": "^7.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+            "app/Controllers/",
+            "app/Models/",
+            "app/View/Components/"
+        ],
+        "files":[
+            "routes/web.php"
+        ]
+    }
+}

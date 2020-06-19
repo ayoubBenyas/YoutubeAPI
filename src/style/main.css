@@ -1,0 +1,42 @@
+html{
+  background: #ECEFF1; 
+}
+
+a.disabled {
+  text-decoration: none;
+  
+}
+  
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color:#212121;
+}
+a h2{
+  font-weight: bold;
+  color: teal ;
+}
+
+@media(min-width:700px){
+  #header{
+    padding-left: 10%;
+  }
+  
+  
+}
+
+#searchProgress{
+  margin-top: 50px;
+}
+
+.teal:hover #getSearch{
+  width: 10px;
+}
+
+
+@media(max-width:800px){
+    .card-image{
+      display: none;
+    }
+  
+}

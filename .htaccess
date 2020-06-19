@@ -1,0 +1,3 @@
+	RewriteEngine On
+	RewriteRule ^(public)($|/) - [L]
+	RewriteRule !\.(ico|gif|jpg|png|css|js|swf|flv)$ index.php [L,NC,QSA]
